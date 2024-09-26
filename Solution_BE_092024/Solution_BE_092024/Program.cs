@@ -10,7 +10,7 @@ namespace Solution_BE_092024
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Xin chào các bạn đến với khóa BE_092024");
+            Console.WriteLine("Xin chào các bạn đến với khóa BE_092024"); // CLR -> 011010101
 
         }
     }
