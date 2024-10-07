@@ -14,9 +14,6 @@ namespace ConsoleApp_NetFrameWork
 
         public int Tong(int x, int y)
         {
-
-
-
             return x + y;
         }
 
@@ -26,18 +23,25 @@ namespace ConsoleApp_NetFrameWork
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
+            int a, b;
+            Console.Write("nhap he so a: ");
+            a = int.Parse(Console.ReadLine());
+            Console.Write("nhap he so b: ");
+            b = int.Parse(Console.ReadLine());
+            // Console.WriteLine(" ket qua: " + GPTrinhBac1(a, b));
+            Console.ReadKey();
 
-            int myValiable = 1245;
-            string myName = "My Name Is QUAN";
+            //int myValiable = 1245;
+            //string myName = "My Name Is QUAN";
 
-            Console.WriteLine("Xin chào các bạn đến với lớp BE_092024");
-            Console.WriteLine("giá trị của biến myValiable= {0}", myValiable);
+            //Console.WriteLine("Xin chào các bạn đến với lớp BE_092024");
+            //Console.WriteLine("giá trị của biến myValiable= {0}", myValiable);
 
-            var myVarValiable = 100;
+            //var myVarValiable = 100;
 
-            string myVarValiable2 = null;
+            //string myVarValiable2 = null;
 
-            string myVarValiable3 = "";
+            //string myVarValiable3 = "";
 
             //object variable = new object();
             //GCHandle handle = GCHandle.Alloc(myValiable, GCHandleType.Pinned);
@@ -70,8 +74,41 @@ namespace ConsoleApp_NetFrameWork
             // bước 3: gán giá trị của bản sao ( bước 1 ) x= x' ( x=5)
             // bước 4: biễn x' sẽ bị loại bỏ => 5
 
-            Console.WriteLine("y= {0}", y);
-            Console.WriteLine("x={0}", x);
+            //  Console.WriteLine("y= {0}", y);
+            //  Console.WriteLine("x={0}", x);
+            int Month = 12;
+            var totaldays = Month == 12 ? "ĐÚNG " : "SAI";
+
+            var totaldays2 = Month == 12 ? "ĐÚNG " : Month == 2 ? "ĐÚNG" : "SAI";
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    // nếu là sổ chẵn thì bỏ qua
+                    continue;
+                }
+
+                // nếu là số lẻ thì in ra 
+                Console.WriteLine("i={0}", i);
+            }
+
+            // không có break vòng for này chạy 10000 lần 
+            // có break vòng for này chạy 12 lần 
+            // có điểm bắt đầu , có điểm kết thúc 
+            // break và contiue;
+            var list = new List<int> { 1, 2, 3 };
+
+            foreach (var item in list)
+            {
+                Console.WriteLine("item={0}", item);
+            }
+
+
+            /// break nhảy xuống đây
+
+
             Console.ReadKey();
         }
 
