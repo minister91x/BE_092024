@@ -12,24 +12,51 @@ namespace ConsoleApp_NetFrameWork
     {
         public int abc = 100;
 
-        public int Tong(int x, int y)
-        {
-            return x + y;
-        }
-
-
+      
         static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            int a, b;
-            Console.Write("nhap he so a: ");
-            a = int.Parse(Console.ReadLine());
-            Console.Write("nhap he so b: ");
-            b = int.Parse(Console.ReadLine());
-            // Console.WriteLine(" ket qua: " + GPTrinhBac1(a, b));
-            Console.ReadKey();
+            var tong = BE_092024.DataAcess.NetFrameWork.Funtion.FunctionTong_Demo(1, 2);
+
+            int x_phay = 0;
+            //Console.Write("x_phay truoc:{0}", x_phay + "\n");
+
+            //Function_ThamChieu(ref x_phay);
+            //// ref x_phay -> biến x_phay là tham chiếu của của biến x_phay
+            //Console.Write("x_phay sau :{0}", x_phay);
+
+
+            //int gia_tri2;
+            //int gia_tri1 = BE_092024.DataAcess.NetFrameWork.Funtion
+            //    .FunctionTong_Demo_Tra_ve_2_giatri_OUT(10, 20, out gia_tri2);
+
+            //Console.Write("gia_tri1 = :{0}", gia_tri1 + "\n");
+            //Console.Write("gia_tri2 = :{0}", gia_tri2);
+
+           
+            try
+            {
+                var ketquachia = BE_092024.DataAcess.NetFrameWork.Funtion.ChiaHaiSo(10, 0);
+                Console.Write("ketquachia = :{0}", ketquachia);
+
+                BE_092024.DataAcess.NetFrameWork.Funtion.UserInput("BA KÝ TỰ");
+            }
+            catch (Exception ex)
+            {
+
+                Console.Write("ex = :{0}", ex.Message);
+            }
+            
+            
+            // int a, b;
+            //Console.Write("nhap he so a: ");
+            //a = int.Parse(Console.ReadLine());
+            //Console.Write("nhap he so b: ");
+            //b = int.Parse(Console.ReadLine());
+            //// Console.WriteLine(" ket qua: " + GPTrinhBac1(a, b));
+            //Console.ReadKey();
 
             //int myValiable = 1245;
             //string myName = "My Name Is QUAN";
@@ -76,34 +103,34 @@ namespace ConsoleApp_NetFrameWork
 
             //  Console.WriteLine("y= {0}", y);
             //  Console.WriteLine("x={0}", x);
-            int Month = 12;
-            var totaldays = Month == 12 ? "ĐÚNG " : "SAI";
+            //int Month = 12;
+            //var totaldays = Month == 12 ? "ĐÚNG " : "SAI";
 
-            var totaldays2 = Month == 12 ? "ĐÚNG " : Month == 2 ? "ĐÚNG" : "SAI";
+            //var totaldays2 = Month == 12 ? "ĐÚNG " : Month == 2 ? "ĐÚNG" : "SAI";
 
 
-            for (int i = 0; i < 10; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    // nếu là sổ chẵn thì bỏ qua
-                    continue;
-                }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        // nếu là sổ chẵn thì bỏ qua
+            //        continue;
+            //    }
 
-                // nếu là số lẻ thì in ra 
-                Console.WriteLine("i={0}", i);
-            }
+            //    // nếu là số lẻ thì in ra 
+            //    Console.WriteLine("i={0}", i);
+            //}
 
-            // không có break vòng for này chạy 10000 lần 
-            // có break vòng for này chạy 12 lần 
-            // có điểm bắt đầu , có điểm kết thúc 
-            // break và contiue;
-            var list = new List<int> { 1, 2, 3 };
+            //// không có break vòng for này chạy 10000 lần 
+            //// có break vòng for này chạy 12 lần 
+            //// có điểm bắt đầu , có điểm kết thúc 
+            //// break và contiue;
+            //var list = new List<int> { 1, 2, 3 };
 
-            foreach (var item in list)
-            {
-                Console.WriteLine("item={0}", item);
-            }
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine("item={0}", item);
+            //}
 
 
             /// break nhảy xuống đây

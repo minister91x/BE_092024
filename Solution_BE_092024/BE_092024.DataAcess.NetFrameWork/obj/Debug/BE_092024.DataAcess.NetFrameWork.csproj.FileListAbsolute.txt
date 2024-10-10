@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\bin\Debug\BE_092024.DataAcess.NetFrameWork.dll
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\bin\Debug\BE_092024.DataAcess.NetFrameWork.pdb
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\obj\Debug\BE_092024.DataAcess.NetFrameWork.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\obj\Debug\BE_092024.DataAcess.NetFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\obj\Debug\BE_092024.DataAcess.NetFrameWork.dll
+C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.DataAcess.NetFrameWork\obj\Debug\BE_092024.DataAcess.NetFrameWork.pdb
