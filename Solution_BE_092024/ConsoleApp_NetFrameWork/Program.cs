@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BE_092024.DataAcess.NetFrameWork.Enum;
+using BE_092024.DataAcess.NetFrameWork.STRUCT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -12,15 +14,15 @@ namespace ConsoleApp_NetFrameWork
     {
         public int abc = 100;
 
-      
+
         static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            var tong = BE_092024.DataAcess.NetFrameWork.Funtion.FunctionTong_Demo(1, 2);
+            // var tong = BE_092024.DataAcess.NetFrameWork.Funtion.FunctionTong_Demo(1, 2);
 
-            int x_phay = 0;
+            //  int x_phay = 0;
             //Console.Write("x_phay truoc:{0}", x_phay + "\n");
 
             //Function_ThamChieu(ref x_phay);
@@ -35,21 +37,21 @@ namespace ConsoleApp_NetFrameWork
             //Console.Write("gia_tri1 = :{0}", gia_tri1 + "\n");
             //Console.Write("gia_tri2 = :{0}", gia_tri2);
 
-           
-            try
-            {
-                var ketquachia = BE_092024.DataAcess.NetFrameWork.Funtion.ChiaHaiSo(10, 0);
-                Console.Write("ketquachia = :{0}", ketquachia);
 
-                BE_092024.DataAcess.NetFrameWork.Funtion.UserInput("BA KÝ TỰ");
-            }
-            catch (Exception ex)
-            {
+            //try
+            //{
+            //    var ketquachia = BE_092024.DataAcess.NetFrameWork.Funtion.ChiaHaiSo(10, 0);
+            //    Console.Write("ketquachia = :{0}", ketquachia);
 
-                Console.Write("ex = :{0}", ex.Message);
-            }
-            
-            
+            //    BE_092024.DataAcess.NetFrameWork.Funtion.UserInput("BA KÝ TỰ");
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    Console.Write("ex = :{0}", ex.Message);
+            //}
+
+
             // int a, b;
             //Console.Write("nhap he so a: ");
             //a = int.Parse(Console.ReadLine());
@@ -135,6 +137,61 @@ namespace ConsoleApp_NetFrameWork
 
             /// break nhảy xuống đây
 
+
+
+
+            // var product2 = new Product("SP001", "Iphone 16", "sản phẩm mới");
+
+            //Console.WriteLine("id={0} \n", product2.ID);
+            //Console.WriteLine("name={0} \n", product2.Name);
+            //Console.WriteLine("desc={0} \n", product2.Description);
+
+            //Console.WriteLine("product infor = {0} \n", product2.ProductInfor());
+
+
+            //Console.WriteLine("nhập id :");
+            //var id = Console.ReadLine();
+
+            //Console.WriteLine("nhập tên  :");
+            //var name = Console.ReadLine();
+
+
+            //Console.WriteLine("nhập giá  :");
+            //var price = Console.ReadLine();
+
+            //Console.WriteLine("nhập mô tả :");
+            //var description = Console.ReadLine();
+
+            //var product = new BE_092024.DataAcess.NetFrameWork.Bussiness.ProductManagerment();
+            //var rs = product.Product_Insert(id, name, price, description);
+
+            //Console.WriteLine("product infor = {0} \n", rs);
+
+
+            int paymentStatus = 1;
+
+            if (paymentStatus == (int)PaymentStatus.Initial)
+            {
+                /// 
+            }
+
+            if (paymentStatus == (int)PaymentStatus.Success) // 2 tương ứng là gì ????
+            {
+                /// 
+            }
+
+            if (paymentStatus == 3)
+            {
+                /// 
+            }
+
+            int[] arr = { 1, 2, 3, 4, 5 };
+
+           
+            arr[4] = 100;
+
+            var value_index_4 = arr[4];
+            Console.WriteLine("value_index_5 = {0} \n", value_index_4);
 
             Console.ReadKey();
         }

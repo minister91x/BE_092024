@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_NetFrameWork", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024.DataAcess.NetFrameWork", "BE_092024.DataAcess.NetFrameWork\BE_092024.DataAcess.NetFrameWork.csproj", "{817579EC-ED74-454C-A2D9-0B52E13E1E98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024.Common", "BE_092024.Common\BE_092024.Common.csproj", "{D1E99CA3-82CB-4119-82CB-F685327BA52E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{817579EC-ED74-454C-A2D9-0B52E13E1E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817579EC-ED74-454C-A2D9-0B52E13E1E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817579EC-ED74-454C-A2D9-0B52E13E1E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

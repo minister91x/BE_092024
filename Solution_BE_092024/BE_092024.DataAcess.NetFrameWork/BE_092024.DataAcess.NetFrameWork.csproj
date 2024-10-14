@@ -41,9 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness\ProductManagerment.cs" />
     <Compile Include="DataTooLongExeption.cs" />
+    <Compile Include="Enum\PaymentStatus.cs" />
     <Compile Include="Funtion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STRUCT\Product.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE_092024.Common\BE_092024.Common.csproj">
+      <Project>{d1e99ca3-82cb-4119-82cb-f685327ba52e}</Project>
+      <Name>BE_092024.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
