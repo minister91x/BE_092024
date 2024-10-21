@@ -4,3 +4,9 @@ C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.Com
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.dll
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\bin\Debug\BE_092024.Common.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\bin\Debug\BE_092024.Common.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.csproj.AssemblyReference.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024.Common\obj\Debug\BE_092024.Common.pdb

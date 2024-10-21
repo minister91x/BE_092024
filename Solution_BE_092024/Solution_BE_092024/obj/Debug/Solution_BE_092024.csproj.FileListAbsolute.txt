@@ -1,0 +1,7 @@
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\bin\Debug\Solution_BE_092024.exe.config
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\bin\Debug\Solution_BE_092024.exe
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\bin\Debug\Solution_BE_092024.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\obj\Debug\Solution_BE_092024.csproj.AssemblyReference.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\obj\Debug\Solution_BE_092024.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\obj\Debug\Solution_BE_092024.exe
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\Solution_BE_092024\obj\Debug\Solution_BE_092024.pdb

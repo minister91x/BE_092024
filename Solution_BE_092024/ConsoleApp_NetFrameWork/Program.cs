@@ -1,7 +1,9 @@
 ﻿using BE_092024.DataAcess.NetFrameWork.Enum;
 using BE_092024.DataAcess.NetFrameWork.STRUCT;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -187,11 +189,114 @@ namespace ConsoleApp_NetFrameWork
 
             int[] arr = { 1, 2, 3, 4, 5 };
 
-           
+
             arr[4] = 100;
 
             var value_index_4 = arr[4];
             Console.WriteLine("value_index_5 = {0} \n", value_index_4);
+
+            var dateNow = DateTime.Now.Hour; // UTC+7
+            var dateNowUTC = DateTime.UtcNow.Hour; // UTC+0
+            var datofweek = DateTime.Now.DayOfWeek; // UTC+0
+            Console.WriteLine("dateNow = {0} \n", dateNow);
+            Console.WriteLine("dateNowUTC = {0} \n", dateNowUTC);
+            Console.WriteLine("datofweek = {0} \n", datofweek);
+            var DaysInMonth = DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month);
+            Console.WriteLine("DaysInMonth = {0} \n", DaysInMonth);
+
+            var myDate = new DateTime(2024, 10, 21);
+            Console.WriteLine("myDate = {0} \n", myDate.ToString("dd-MM-yyyy"));
+
+            var tomorow = DateTime.Now.AddDays(-1).AddHours(5).AddMinutes(10);
+
+            var timeSpan = new TimeSpan(-50, 10, 58);
+
+            tomorow = tomorow.Add(timeSpan);
+
+            Console.WriteLine("tomorow = {0} \n", tomorow.ToString("ss"));
+
+            var date = new DateTime(2024, 10, 21).Subtract(new DateTime(1991, 02, 08));
+            Console.WriteLine("TotalDays = {0} \n", date.TotalDays);
+
+            // Các định dạng date-time được hỗ trợ.
+            DateTime aDateTime = new DateTime(2024, 10, 21, 21, 30, 00);
+
+            string[] formattedStrings = aDateTime.GetDateTimeFormats();
+
+            foreach (string format in formattedStrings)
+            {
+                Console.WriteLine(format);
+            }
+
+
+            // d: không kèm số 0 ở đầu đối với ngày <10
+            // dd: kèm số 0 ở đầu đối với ngày <10
+            // ddd : viết tắt của ngày (Mon)
+            // dddd : viết đầy đủ của ngày (Monday)
+
+            // M: không kèm số 0 ở đầu đối với ngày <10
+            // MM: kèm số 0 ở đầu đối với ngày <10
+            // MMM : viết tắt của ngày (Aug)
+            // MMMM : viết đầy đủ của ngày (August)
+
+            // y: không kèm số 0 ở đầu đối với ngày <10
+            // yy: kèm số 0 ở đầu đối với ngày <10
+            // yyy : viết tắt của ngày (Mon)
+            // yyyy : viết đầy đủ của ngày (Monday)
+
+
+            // h: không kèm số 0 ở đầu đối với giờ <10
+            // hh: kèm số 0 ở đầu đối với giờ <10
+            // H : định dạng 12H
+            // HH : định dạng 24H
+
+
+            // s: không kèm số 0 ở đầu đối với giây <10
+            // ss: kèm số 0 ở đầu đối với giấy <10
+
+            string date_string = "21/10/2024"; // dd/MM/yyyy
+            var myDateStr = DateTime.ParseExact(date_string, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            Console.WriteLine("tomorow = {0} \n", myDateStr.ToString("dd-MM-yyyy HH:mm:ss"));
+
+
+
+            string date_string2 = "2100/10/2024"; // dd/MM/yyyy
+            DateTime date1;
+            var checkIsDateTime = DateTime.TryParseExact(date_string2, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date1);
+            if (checkIsDateTime)
+            {
+                Console.WriteLine("là định dạng ngày tháng  \n");
+            }
+            else
+            {
+                Console.WriteLine("Không phải định dạng ngày tháng  \n");
+            }
+
+
+            // string  // kiểu dữ liệu 
+            string abc = "my name is_";
+            var length = abc.Length;
+            Console.WriteLine("length = {0}", length);
+
+            var str_arr = abc.Split(' ');
+            foreach (var item in str_arr)
+            {
+                Console.WriteLine("item = {0}", item);
+            }
+
+            var substr = abc.Substring(0, abc.Length - 1);
+            Console.WriteLine("substr = {0}", substr);
+
+            var replace = abc.Replace("_","1234");
+            Console.WriteLine("replace = {0}", replace);
+
+            var str = abc.Concat("test");
+            var str2 = abc + "test";
+
+            StringBuilder stringBuilder = new StringBuilder("abc");
+            stringBuilder.Append("test");
+
+
 
             Console.ReadKey();
         }

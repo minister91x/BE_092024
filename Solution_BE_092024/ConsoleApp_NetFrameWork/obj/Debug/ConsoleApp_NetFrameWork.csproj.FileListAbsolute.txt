@@ -10,3 +10,15 @@ C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\ConsoleApp_Ne
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleA.864AB152.Up2Date
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.Common.dll
 C:\Users\Admin\source\repos\BE_092024\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.Common.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\ConsoleApp_NetFrameWork.exe.config
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\ConsoleApp_NetFrameWork.exe
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\ConsoleApp_NetFrameWork.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.Common.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.DataAcess.NetFrameWork.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.Common.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\bin\Debug\BE_092024.DataAcess.NetFrameWork.pdb
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleApp_NetFrameWork.csproj.AssemblyReference.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleApp_NetFrameWork.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleA.864AB152.Up2Date
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleApp_NetFrameWork.exe
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\ConsoleApp_NetFrameWork\obj\Debug\ConsoleApp_NetFrameWork.pdb
