@@ -45,7 +45,9 @@
     <Compile Include="DataTooLongExeption.cs" />
     <Compile Include="Enum\PaymentStatus.cs" />
     <Compile Include="Funtion.cs" />
+    <Compile Include="Generic\MyGeneric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STRUCT\GenericClass.cs" />
     <Compile Include="STRUCT\Product.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{D42CF503-0860-4E39-A80D-6DEC6E41D57F}|ConsoleApp_NetFrameWork\\ConsoleApp_NetFrameWork.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\consoleapp_netframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42CF503-0860-4E39-A80D-6DEC6E41D57F}|ConsoleApp_NetFrameWork\\ConsoleApp_NetFrameWork.csproj|solutionrelative:consoleapp_netframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024.dataacess.netframework\\struct\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|solutionrelative:be_092024.dataacess.netframework\\struct\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024.dataacess.netframework\\struct\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|solutionrelative:be_092024.dataacess.netframework\\struct\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024.dataacess.netframework\\generic\\mygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817579EC-ED74-454C-A2D9-0B52E13E1E98}|BE_092024.DataAcess.NetFrameWork\\BE_092024.DataAcess.NetFrameWork.csproj|solutionrelative:be_092024.dataacess.netframework\\generic\\mygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +38,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
+              "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
+              "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:37:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
+              "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
+              "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:35:18.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyGeneric.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
+              "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
+              "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:28:19.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\ConsoleApp_NetFrameWork\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_NetFrameWork\\Program.cs",
               "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\ConsoleApp_NetFrameWork\\Program.cs",
               "RelativeToolTip": "ConsoleApp_NetFrameWork\\Program.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAgwB8BAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAwwH8BAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T13:22:22.506Z",
               "EditorCaption": ""

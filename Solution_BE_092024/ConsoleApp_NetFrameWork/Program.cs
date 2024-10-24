@@ -1,7 +1,9 @@
 ﻿using BE_092024.DataAcess.NetFrameWork.Enum;
+using BE_092024.DataAcess.NetFrameWork.Generic;
 using BE_092024.DataAcess.NetFrameWork.STRUCT;
 using System;
 using System.CodeDom;
+using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -221,12 +223,12 @@ namespace ConsoleApp_NetFrameWork
             // Các định dạng date-time được hỗ trợ.
             DateTime aDateTime = new DateTime(2024, 10, 21, 21, 30, 00);
 
-            string[] formattedStrings = aDateTime.GetDateTimeFormats();
+            //string[] formattedStrings = aDateTime.GetDateTimeFormats();
 
-            foreach (string format in formattedStrings)
-            {
-                Console.WriteLine(format);
-            }
+            //foreach (string format in formattedStrings)
+            //{
+            //    Console.WriteLine(format);
+            //}
 
 
             // d: không kèm số 0 ở đầu đối với ngày <10
@@ -254,48 +256,147 @@ namespace ConsoleApp_NetFrameWork
             // s: không kèm số 0 ở đầu đối với giây <10
             // ss: kèm số 0 ở đầu đối với giấy <10
 
-            string date_string = "21/10/2024"; // dd/MM/yyyy
-            var myDateStr = DateTime.ParseExact(date_string, "dd/MM/yyyy", CultureInfo.InvariantCulture);
-            Console.WriteLine("tomorow = {0} \n", myDateStr.ToString("dd-MM-yyyy HH:mm:ss"));
+            //string date_string = "21/10/2024"; // dd/MM/yyyy
+            //var myDateStr = DateTime.ParseExact(date_string, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            //Console.WriteLine("tomorow = {0} \n", myDateStr.ToString("dd-MM-yyyy HH:mm:ss"));
 
 
 
-            string date_string2 = "2100/10/2024"; // dd/MM/yyyy
-            DateTime date1;
-            var checkIsDateTime = DateTime.TryParseExact(date_string2, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date1);
-            if (checkIsDateTime)
+            //string date_string2 = "2100/10/2024"; // dd/MM/yyyy
+            //DateTime date1;
+            //var checkIsDateTime = DateTime.TryParseExact(date_string2, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date1);
+            //if (checkIsDateTime)
+            //{
+            //    Console.WriteLine("là định dạng ngày tháng  \n");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Không phải định dạng ngày tháng  \n");
+            //}
+
+
+            //// string  // kiểu dữ liệu 
+            //string abc = "my name is_";
+            //var length = abc.Length;
+            //Console.WriteLine("length = {0}", length);
+
+            //var str_arr = abc.Split(' ');
+            //foreach (var item in str_arr)
+            //{
+            //    Console.WriteLine("item = {0}", item);
+            //}
+
+            //var substr = abc.Substring(0, abc.Length - 1);
+            //Console.WriteLine("substr = {0}", substr);
+
+            //var replace = abc.Replace("_","1234");
+            //Console.WriteLine("replace = {0}", replace);
+
+            //var str = abc.Concat("test");
+            //var str2 = abc + "test";
+
+            //StringBuilder stringBuilder = new StringBuilder("abc");
+            //stringBuilder.Append("test");
+
+            /// Buổi 7
+            /// 
+            //int sothunhat = 10;
+            //int sothuhai = 20;
+            //MyGeneric.Swap<int>(ref sothunhat, ref sothuhai);
+
+            //Console.WriteLine("sothunhat = {0}", sothunhat);
+            //Console.WriteLine("sothuhai = {0}", sothuhai);
+
+            //string sothunhat_str = "Lớp ";
+            //string sothuhai_str = "BE092024";
+            //MyGeneric.Swap<string>(ref sothunhat_str, ref sothuhai_str);
+
+
+            //Console.WriteLine("sothunhat_str = {0}", sothunhat_str);
+            //Console.WriteLine("sothuhai_str = {0}", sothuhai_str);
+
+            var mystuct = new GenericStruct<int>(10);
+            Console.WriteLine("mystuct Value = {0}", mystuct.GetValue());
+
+
+            var mystuctStr = new GenericStruct<string>("My Name is QUAN");
+            Console.WriteLine("mystuctStr Value = {0}", mystuctStr.GetValue());
+
+            float aa = (float)10.5;
+            var mystructFloat = new GenericStruct<float>(aa);
+            Console.WriteLine("mystructFloat Value = {0}", mystructFloat.GetValue());
+
+
+            //Dictionary<string, string> _phoneBook = new Dictionary<string, string>()
+            //    {
+            //    {"Trump", "0123.456.789" },
+            //    {"Obama", "0987.654.321" },
+            //    {"Putin", "0135.246.789" }
+            //    };
+
+
+            //foreach (KeyValuePair<string, string> entry in _phoneBook)
+            //{
+            //    Console.WriteLine($" -> {entry.Key} : {entry.Value}");
+            //}
+            //ArrayList arrayList1 = new ArrayList();
+            //arrayList1.Add(1);
+            //arrayList1.Add("so hai");
+            //arrayList1.Add(1.5);
+            //arrayList1.Add(true);
+
+            //for (var i = 0; i < arrayList1.Count; i++)
+            //{
+            //    Console.WriteLine(arrayList1[i]);
+
+            //}
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add("Key1", "Value1");
+            hashtable.Add("Key2", "Value2");
+            Console.WriteLine(hashtable["Key1"]);
+            foreach (DictionaryEntry item in hashtable)
             {
-                Console.WriteLine("là định dạng ngày tháng  \n");
+                Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
             }
-            else
+            foreach (var key in hashtable.Keys)
             {
-                Console.WriteLine("Không phải định dạng ngày tháng  \n");
+                Console.WriteLine("Key: {0} ", key);
             }
 
-
-            // string  // kiểu dữ liệu 
-            string abc = "my name is_";
-            var length = abc.Length;
-            Console.WriteLine("length = {0}", length);
-
-            var str_arr = abc.Split(' ');
-            foreach (var item in str_arr)
+            SortedList mySL = new SortedList();
+            mySL.Add("Third", "!");
+            mySL.Add("Second", "World");
+            mySL.Add("First", "Hello");
+            // Displays the properties and values of the SortedList.
+            Console.WriteLine("mySL");
+            Console.WriteLine(" Count: {0}", mySL.Count);
+            Console.WriteLine(" Capacity: {0}", mySL.Capacity);
+            Console.WriteLine(" Keys and Values:");
+            Console.WriteLine("\t-KEY-\t-VALUE-");
+            for (int i = 0; i < mySL.Count; i++)
             {
-                Console.WriteLine("item = {0}", item);
+                Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
             }
 
-            var substr = abc.Substring(0, abc.Length - 1);
-            Console.WriteLine("substr = {0}", substr);
+            Stack myStack = new Stack();
+            myStack.Push("Hello");
+            myStack.Push("World");
+            myStack.Push("!");
 
-            var replace = abc.Replace("_","1234");
-            Console.WriteLine("replace = {0}", replace);
+            Console.WriteLine("myStack");
+            Console.WriteLine("\tCount: {0}", myStack.Count);
+            Console.Write("\tValues:");
+            foreach (Object obj in myStack) Console.Write(" {0}", obj);
 
-            var str = abc.Concat("test");
-            var str2 = abc + "test";
 
-            StringBuilder stringBuilder = new StringBuilder("abc");
-            stringBuilder.Append("test");
+            Queue myQ = new Queue();
+            myQ.Enqueue("Hello");
+            myQ.Enqueue("World");
+            myQ.Enqueue("!");
+            Console.WriteLine("myQ");
+            Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
 
+            foreach (Object obj in myQ) Console.Write(" {0}", obj);
 
 
             Console.ReadKey();
