@@ -41,7 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaiTap\Buoi8\abc.cs" />
+    <Compile Include="BaiTap\Buoi8\Buoi8_Class.cs" />
     <Compile Include="Bussiness\ProductManagerment.cs" />
+    <Compile Include="DataObject\Animal.cs" />
+    <Compile Include="DataObject\AnimalAbstract.cs" />
+    <Compile Include="DataObject\Bird.cs" />
+    <Compile Include="DataObject\Cat.cs" />
+    <Compile Include="DataObject\Cow.cs" />
+    <Compile Include="DataObject\Employee.cs" />
     <Compile Include="DataTooLongExeption.cs" />
     <Compile Include="Enum\PaymentStatus.cs" />
     <Compile Include="Funtion.cs" />

@@ -1,4 +1,5 @@
-﻿using BE_092024.DataAcess.NetFrameWork.Enum;
+﻿using BE_092024.DataAcess.NetFrameWork.DataObject;
+using BE_092024.DataAcess.NetFrameWork.Enum;
 using BE_092024.DataAcess.NetFrameWork.Generic;
 using BE_092024.DataAcess.NetFrameWork.STRUCT;
 using System;
@@ -350,55 +351,60 @@ namespace ConsoleApp_NetFrameWork
             //    Console.WriteLine(arrayList1[i]);
 
             //}
-            Hashtable hashtable = new Hashtable();
-            hashtable.Add("Key1", "Value1");
-            hashtable.Add("Key2", "Value2");
-            Console.WriteLine(hashtable["Key1"]);
-            foreach (DictionaryEntry item in hashtable)
-            {
-                Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
-            }
-            foreach (var key in hashtable.Keys)
-            {
-                Console.WriteLine("Key: {0} ", key);
-            }
+            //Hashtable hashtable = new Hashtable();
+            //hashtable.Add("Key1", "Value1");
+            //hashtable.Add("Key2", "Value2");
+            //Console.WriteLine(hashtable["Key1"]);
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
+            //}
+            //foreach (var key in hashtable.Keys)
+            //{
+            //    Console.WriteLine("Key: {0} ", key);
+            //}
 
-            SortedList mySL = new SortedList();
-            mySL.Add("Third", "!");
-            mySL.Add("Second", "World");
-            mySL.Add("First", "Hello");
-            // Displays the properties and values of the SortedList.
-            Console.WriteLine("mySL");
-            Console.WriteLine(" Count: {0}", mySL.Count);
-            Console.WriteLine(" Capacity: {0}", mySL.Capacity);
-            Console.WriteLine(" Keys and Values:");
-            Console.WriteLine("\t-KEY-\t-VALUE-");
-            for (int i = 0; i < mySL.Count; i++)
-            {
-                Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
-            }
+            //SortedList mySL = new SortedList();
+            //mySL.Add("Third", "!");
+            //mySL.Add("Second", "World");
+            //mySL.Add("First", "Hello");
+            //// Displays the properties and values of the SortedList.
+            //Console.WriteLine("mySL");
+            //Console.WriteLine(" Count: {0}", mySL.Count);
+            //Console.WriteLine(" Capacity: {0}", mySL.Capacity);
+            //Console.WriteLine(" Keys and Values:");
+            //Console.WriteLine("\t-KEY-\t-VALUE-");
+            //for (int i = 0; i < mySL.Count; i++)
+            //{
+            //    Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
+            //}
 
-            Stack myStack = new Stack();
-            myStack.Push("Hello");
-            myStack.Push("World");
-            myStack.Push("!");
+            //Stack myStack = new Stack();
+            //myStack.Push("Hello");
+            //myStack.Push("World");
+            //myStack.Push("!");
 
-            Console.WriteLine("myStack");
-            Console.WriteLine("\tCount: {0}", myStack.Count);
-            Console.Write("\tValues:");
-            foreach (Object obj in myStack) Console.Write(" {0}", obj);
-
-
-            Queue myQ = new Queue();
-            myQ.Enqueue("Hello");
-            myQ.Enqueue("World");
-            myQ.Enqueue("!");
-            Console.WriteLine("myQ");
-            Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
-
-            foreach (Object obj in myQ) Console.Write(" {0}", obj);
+            //Console.WriteLine("myStack");
+            //Console.WriteLine("\tCount: {0}", myStack.Count);
+            //Console.Write("\tValues:");
+            //foreach (Object obj in myStack) Console.Write(" {0}", obj);
 
 
+            //Queue myQ = new Queue();
+            //myQ.Enqueue("Hello");
+            //myQ.Enqueue("World");
+            //myQ.Enqueue("!");
+            //Console.WriteLine("myQ");
+            //Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
+
+            //foreach (Object obj in myQ) Console.Write(" {0}", obj);
+
+
+            var mybird = new Cow();
+            //đối tương    // classmyclass
+            var mycat = new Cat();
+            Console.WriteLine("mybird GetSound: {0}", mybird.GetSound());;
+            Console.WriteLine("mycat GetSound: {0}", mycat.GetSound()); ;
             Console.ReadKey();
         }
 
