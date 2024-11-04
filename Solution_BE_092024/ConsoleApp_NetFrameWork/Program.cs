@@ -1,6 +1,7 @@
 ﻿using BE_092024.DataAcess.NetFrameWork.DataObject;
 using BE_092024.DataAcess.NetFrameWork.Enum;
 using BE_092024.DataAcess.NetFrameWork.Generic;
+using BE_092024.DataAcess.NetFrameWork.Interface;
 using BE_092024.DataAcess.NetFrameWork.STRUCT;
 using System;
 using System.CodeDom;
@@ -400,11 +401,16 @@ namespace ConsoleApp_NetFrameWork
             //foreach (Object obj in myQ) Console.Write(" {0}", obj);
 
 
-            var mybird = new Cow();
-            //đối tương    // classmyclass
-            var mycat = new Cat();
-            Console.WriteLine("mybird GetSound: {0}", mybird.GetSound());;
-            Console.WriteLine("mycat GetSound: {0}", mycat.GetSound()); ;
+            //var mybird = new Cow();
+            ////đối tương    // classmyclass
+            //var mycat = new Cat();
+            //Console.WriteLine("mybird GetSound: {0}", mybird.GetSound());;
+            //Console.WriteLine("mycat GetSound: {0}", mycat.GetSound()); ;
+
+            var ps = new ProductManager();
+
+            var result = ps.Product_Insert(new Product { Id = 1, Name = "" });
+            Console.WriteLine("Product_Insert result : {0}", result.ReponseCode +" | Des:" +result.ResponseMessenger );
             Console.ReadKey();
         }
 

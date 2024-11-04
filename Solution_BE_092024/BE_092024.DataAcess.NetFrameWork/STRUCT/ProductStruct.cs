@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BE_092024.DataAcess.NetFrameWork.STRUCT
 {
-    public struct Product
+    public struct ProductStruct
     {
         public string ID { get; set; }
         public string Name { get; set; }
@@ -15,7 +15,7 @@ namespace BE_092024.DataAcess.NetFrameWork.STRUCT
 
         public string Description { get; set; }
 
-        public Product(string _id, string _name,int _price, string _description)
+        public ProductStruct(string _id, string _name,int _price, string _description)
         {
             ID = _id;
             Name = _name;

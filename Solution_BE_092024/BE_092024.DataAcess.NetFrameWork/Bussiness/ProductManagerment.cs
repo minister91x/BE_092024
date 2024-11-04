@@ -42,7 +42,7 @@ namespace BE_092024.DataAcess.NetFrameWork.Bussiness
 
             // Xử lý logic 
 
-            var product = new Product();
+            var product = new ProductStruct();
             product.ID = id;
             product.Name = name;
             product.Price = Convert.ToInt32(price);
