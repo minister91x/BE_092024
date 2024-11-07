@@ -10,6 +10,6 @@ namespace BE_092024.DataAcess.NetFrameWork.Interface
 {
     public interface IProduct
     {
-        ProductInsertReponseData Product_Insert(Product product);
+        ProductInsertReponseData Product_Insert(Product product); // trừu tượng
     }
 }
