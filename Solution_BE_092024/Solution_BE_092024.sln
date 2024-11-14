@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024.DataAcess.NetFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024.Common", "BE_092024.Common\BE_092024.Common.csproj", "{D1E99CA3-82CB-4119-82CB-F685327BA52E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024_API", "BE_092024_API\BE_092024_API.csproj", "{B5765386-11D4-4E08-93C3-78C5CF9A9382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024_WebAspnetCore", "BE_092024_WebAspnetCore\BE_092024_WebAspnetCore.csproj", "{28094AA9-1AAF-486A-B06D-9E3A37703DE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E99CA3-82CB-4119-82CB-F685327BA52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5765386-11D4-4E08-93C3-78C5CF9A9382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5765386-11D4-4E08-93C3-78C5CF9A9382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5765386-11D4-4E08-93C3-78C5CF9A9382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5765386-11D4-4E08-93C3-78C5CF9A9382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28094AA9-1AAF-486A-B06D-9E3A37703DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28094AA9-1AAF-486A-B06D-9E3A37703DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28094AA9-1AAF-486A-B06D-9E3A37703DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28094AA9-1AAF-486A-B06D-9E3A37703DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

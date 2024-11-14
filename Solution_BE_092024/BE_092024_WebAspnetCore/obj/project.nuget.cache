@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCYlEb56TX4=",
+  "success": true,
+  "projectFilePath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

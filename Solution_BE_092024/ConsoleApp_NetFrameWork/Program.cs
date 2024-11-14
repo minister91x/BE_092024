@@ -411,6 +411,33 @@ namespace ConsoleApp_NetFrameWork
 
             var result = ps.Product_Insert(new Product { Id = 1, Name = "" });
             Console.WriteLine("Product_Insert result : {0}", result.ReponseCode +" | Des:" +result.ResponseMessenger );
+
+
+            var width = 100;
+            if (width == 100)
+            {
+                Console.WriteLine("bang");
+            }
+            else
+            {
+                Console.WriteLine("Khong bang");
+            }
+
+            switch (width)
+            {
+                case 100: Console.WriteLine("bang"); break;
+                default: Console.WriteLine("Khong bang"); break;
+            }
+
+
+            if(width != 100 ) 
+            {
+                Console.WriteLine("Khong bang"); 
+            }
+
+            Console.WriteLine("bang");
+
+
             Console.ReadKey();
         }
 
