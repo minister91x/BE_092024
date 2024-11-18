@@ -1,3 +1,5 @@
+using BE_092024_API.Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,6 +17,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//app.UseMiddleware<MyCustomeMiddleware>();
+
+app.MiddlewareOfBE092024();
 
 app.UseAuthorization();
 

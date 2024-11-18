@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_api\\middleware\\mycustomemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\middleware\\mycustomemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_api\\middleware\\mymiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\middleware\\mymiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26E7F201-5219-43D3-AC7F-B57BDBBB7DF4}|Solution_BE_092024\\Solution_BE_092024.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\solution_be_092024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26E7F201-5219-43D3-AC7F-B57BDBBB7DF4}|Solution_BE_092024\\Solution_BE_092024.csproj|D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\solution_be_092024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26E7F201-5219-43D3-AC7F-B57BDBBB7DF4}|Solution_BE_092024\\Solution_BE_092024.csproj|solutionrelative:solution_be_092024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42CF503-0860-4E39-A80D-6DEC6E41D57F}|ConsoleApp_NetFrameWork\\ConsoleApp_NetFrameWork.csproj|d:\\sourcecode\\repos\\be_092024\\solution_be_092024\\consoleapp_netframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D42CF503-0860-4E39-A80D-6DEC6E41D57F}|ConsoleApp_NetFrameWork\\ConsoleApp_NetFrameWork.csproj|D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\consoleapp_netframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D42CF503-0860-4E39-A80D-6DEC6E41D57F}|ConsoleApp_NetFrameWork\\ConsoleApp_NetFrameWork.csproj|solutionrelative:consoleapp_netframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +106,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyMiddlewareExtensions.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Middleware\\MyMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "BE_092024_API\\Middleware\\MyMiddlewareExtensions.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Middleware\\MyMiddlewareExtensions.cs",
+              "RelativeToolTip": "BE_092024_API\\Middleware\\MyMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:24:00.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-14T14:38:43.455Z",
+              "Title": "MyCustomeMiddleware.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Middleware\\MyCustomeMiddleware.cs",
+              "RelativeDocumentMoniker": "BE_092024_API\\Middleware\\MyCustomeMiddleware.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Middleware\\MyCustomeMiddleware.cs",
+              "RelativeToolTip": "BE_092024_API\\Middleware\\MyCustomeMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:18:33.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Program.cs",
+              "RelativeDocumentMoniker": "BE_092024_API\\Program.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Program.cs",
+              "RelativeToolTip": "BE_092024_API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:03:09.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Program.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:01:26.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\appsettings.json",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\appsettings.json",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\appsettings.json",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T15:01:16.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T14:38:43.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\Solution_BE_092024\\Program.cs",
               "RelativeDocumentMoniker": "Solution_BE_092024\\Program.cs",
@@ -107,12 +190,11 @@
               "RelativeToolTip": "Solution_BE_092024\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:26:22.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T14:26:22.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IProduct.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\Interface\\IProduct.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\Interface\\IProduct.cs",
@@ -120,12 +202,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\Interface\\IProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:01:07.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T14:01:07.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\Interface\\ProductManager.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\Interface\\ProductManager.cs",
@@ -133,12 +214,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\Interface\\ProductManager.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:10:12.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T13:10:12.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Buoi8_Class.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\Buoi8_Class.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\Buoi8_Class.cs",
@@ -146,12 +226,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\Buoi8_Class.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:43:06.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:43:06.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Bird.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\Bird.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Bird.cs",
@@ -159,12 +238,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Bird.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAtwAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:50:00.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:50:00.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Animal.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\Animal.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Animal.cs",
@@ -172,12 +250,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Animal.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAlwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:35:42.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:35:42.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "GenericClass.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
@@ -185,12 +262,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\GenericClass.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:35:18.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T13:35:18.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "MyGeneric.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
@@ -198,25 +274,23 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\Generic\\MyGeneric.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:28:19.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T13:28:19.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\ConsoleApp_NetFrameWork\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_NetFrameWork\\Program.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\ConsoleApp_NetFrameWork\\Program.cs*",
-              "RelativeToolTip": "ConsoleApp_NetFrameWork\\Program.cs*",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\ConsoleApp_NetFrameWork\\Program.cs",
+              "RelativeToolTip": "ConsoleApp_NetFrameWork\\Program.cs",
               "ViewState": "AgIAAIABAAAAAAAAAAAUwJ8BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:22:22.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T13:22:22.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\Employee.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Employee.cs",
@@ -224,12 +298,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Employee.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:10:57.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:10:57.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AnimalAbstract.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\AnimalAbstract.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\AnimalAbstract.cs",
@@ -237,12 +310,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\AnimalAbstract.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:25:56.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:25:56.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Cat.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\Cat.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Cat.cs",
@@ -250,12 +322,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Cat.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:30:47.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:30:47.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Cow.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\DataObject\\Cow.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Cow.cs",
@@ -263,12 +334,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\DataObject\\Cow.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:32:01.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:32:01.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "abc.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\abc.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\abc.cs",
@@ -276,12 +346,11 @@
               "RelativeToolTip": "BE_092024.DataAcess.NetFrameWork\\BaiTap\\Buoi8\\abc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:43:36.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T14:43:36.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
               "RelativeDocumentMoniker": "BE_092024.DataAcess.NetFrameWork\\STRUCT\\Product.cs",
