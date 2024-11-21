@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "BE_092024_API.Controllers.ProductController",
+    "Method": "Product_GetList",
+    "RelativePath": "api/Product/Product_GetList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "BE_092024.DataAccess.NetCore.DataObject.ProductGetListRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BE_092024_API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

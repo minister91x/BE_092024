@@ -15,7 +15,7 @@ namespace BE_092024_API.Middleware
         {
             //  await context.Response.WriteAsync("Middleware from Mr Quan!");
              context.Response.Headers.Add("HackerBy", "MRQuan");
-           //  await _next(context);
+             await _next(context);
 
         }
     }

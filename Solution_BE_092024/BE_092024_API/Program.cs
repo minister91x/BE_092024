@@ -1,3 +1,5 @@
+using BE_092024.DataAccess.NetCore.DAL;
+using BE_092024.DataAccess.NetCore.DALImpl;
 using BE_092024_API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 

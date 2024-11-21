@@ -31,3 +31,5 @@ D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\obj\Debug\net6.0\
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\obj\Debug\net6.0\BE_092024_API.pdb
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\obj\Debug\net6.0\BE_092024_API.genruntimeconfig.cache
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\obj\Debug\net6.0\ref\BE_092024_API.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\BE_092024.DataAccess.NetCore.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\BE_092024.DataAccess.NetCore.pdb
