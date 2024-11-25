@@ -9,11 +9,11 @@ namespace BE_092024.DataAccess.NetCore.DataObject
     public class Product
     {
         public int ProductId { get; set; }
-        public string? Name { get; set; }
+        public string? ProductName { get; set; }
     }
 
     public class ProductGetListRequestData
     {
-        public string? Name { get; set; }
+        public string? ProductName { get; set; }
     }
 }

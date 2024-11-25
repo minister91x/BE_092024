@@ -10,5 +10,7 @@ namespace BE_092024.DataAccess.NetCore.DAL
     public interface IProductRepository
     {
         Task<List<Product>> Product_GetList(ProductGetListRequestData requestData);
+
+        Task<List<Product>> Product_GetList_EFCore(ProductGetListRequestData requestData);
     }
 }

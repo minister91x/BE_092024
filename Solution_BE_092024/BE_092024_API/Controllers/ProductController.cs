@@ -18,7 +18,7 @@ namespace BE_092024_API.Controllers
         [HttpPost("Product_GetList")]
         public async Task<ActionResult> Product_GetList(ProductGetListRequestData requestData)
         {
-            var list = await _productRepository.Product_GetList(requestData);
+            var list = await _productRepository.Product_GetList_EFCore(requestData);
 
             return Ok(list);
         }
