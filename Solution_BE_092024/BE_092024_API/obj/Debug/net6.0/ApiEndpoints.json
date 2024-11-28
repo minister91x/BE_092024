@@ -16,6 +16,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BE_092024_API.Controllers.RoomController",
+    "Method": "Insert",
+    "RelativePath": "api/Room/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_092024_API.Controllers.RoomController",
+    "Method": "Room_GetList",
+    "RelativePath": "api/Room/Room_GetList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BE_092024_API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

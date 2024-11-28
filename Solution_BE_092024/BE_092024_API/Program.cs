@@ -1,7 +1,9 @@
 using BE_092024.DataAccess.NetCore.DAL;
 using BE_092024.DataAccess.NetCore.DALImpl;
 using BE_092024.DataAccess.NetCore.DBContext;
+using BE_092024.DataAccess.NetCore.UnitOfWork;
 using BE_092024_API.Middleware;
+using BE_092024_API.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -19,7 +21,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
-
+builder.Services.AddTransient<IRoomGenericRepository,RoomGenericRepository>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

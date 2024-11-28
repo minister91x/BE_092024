@@ -19,5 +19,6 @@ namespace BE_092024.DataAccess.NetCore.DBContext
         }
 
         public virtual DbSet<Product> product { get; set; }
+        public virtual DbSet<Room> room { get; set; }
     }
 }

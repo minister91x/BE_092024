@@ -78,5 +78,11 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
                 throw;
             }
         }
+
+        public async Task<int> Product_Insert(Product product)
+        {
+            _dbContext.product.Add(product);
+            return 1;
+        }
     }
 }
