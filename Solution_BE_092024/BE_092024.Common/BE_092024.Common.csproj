@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="DbHelper\DbConnection.cs" />
     <Compile Include="DbHelper\SqlConnectionDB.cs" />
+    <Compile Include="Sercurity.cs" />
     <Compile Include="Validation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
