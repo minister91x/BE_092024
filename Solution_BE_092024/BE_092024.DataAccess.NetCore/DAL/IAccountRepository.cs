@@ -11,5 +11,12 @@ namespace BE_092024.DataAccess.NetCore.DAL
     public interface IAccountRepository
     {
         Task<User> User_Login(AccountLoginRequestData requestData);
+
+        Task<Function> Function_ByName(string functionName);
+
+        Task<Permission> Permission_GetByUser(int UserID,int FunctionID);
+
+
+        Task<int> User_UpdateRefestoken(int UserID,string RefreshToken,DateTime RefreshTokenExpiryTime);
     }
 }

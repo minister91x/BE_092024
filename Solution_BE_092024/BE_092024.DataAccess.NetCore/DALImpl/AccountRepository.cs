@@ -18,6 +18,18 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
         {
             _dbContext = dbContext;
         }
+
+        public async Task<Function> Function_ByName(string functionName)
+        {
+            return _dbContext.function.Where(s=>s.FunctionName == functionName).FirstOrDefault();
+            
+        }
+
+        public async Task<Permission> Permission_GetByUser(int UserID, int FunctionID)
+        {
+            return _dbContext.permission.Where(s => s.UserID == UserID && s.FunctionID==FunctionID).FirstOrDefault();
+        }
+
         public async Task<User> User_Login(AccountLoginRequestData requestData)
         {
 			try
@@ -34,6 +46,22 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
 
 				throw;
 			}
+        }
+
+        public async Task<int> User_UpdateRefestoken(int UserID, string RefreshToken, DateTime RefreshTokenExpiryTime)
+        {
+            var user = _dbContext.user.Where(s => s.UserID == UserID).FirstOrDefault();
+            if (user == null)
+            {
+                return -1;
+            }
+
+            user.RefeshToken = RefreshToken;
+            user.TokenExprired = RefreshTokenExpiryTime;
+            _dbContext.user.Update(user);
+            _dbContext.SaveChanges();
+
+            return 1;
         }
     }
 }

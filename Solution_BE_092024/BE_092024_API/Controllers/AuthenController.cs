@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace BE_092024_API.Controllers
@@ -41,10 +42,15 @@ namespace BE_092024_API.Controllers
                 // Bước 2: Tạo token 
 
                 var authClaims = new List<Claim> { new Claim(ClaimTypes.Name, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.NameId, user.UserID.ToString())};
+                    new Claim(ClaimTypes.Actor, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.PrimarySid, user.UserID.ToString())};
 
                 var newToken = CreateToken(authClaims);
+
+                // Lưu refeshtoken 
+                _ = int.TryParse(_configuration["JWT:RefreshTokenValidityInDays"], out int refreshTokenValidityInDays);
+                var refehtoken = GenerateRefreshToken();
+                await _accountRepository.User_UpdateRefestoken(user.UserID, refehtoken, DateTime.Now.AddDays(refreshTokenValidityInDays));
 
                 responseData.ResponseCode = 1;
                 responseData.ResponseMessage = "Đăng nhập thành công!";
@@ -60,6 +66,48 @@ namespace BE_092024_API.Controllers
         }
 
 
+
+        [HttpPost]
+        [Route("refresh-token")]
+        public async Task<IActionResult> RefreshToken(TokenModel tokenModel)
+        {
+            // Bước 1 : giải mã token truyền lên để lấy claims 
+            var principal = GetPrincipalFromExpiredToken(tokenModel.AccessToken);
+            // Bước 2: check refeshtoken và ngày hết hạn 
+
+
+            string username = principal.Identity.Name;
+
+            // GỌI DB ĐỂ LẤY THEO USERNAME 
+
+            // ngày hết hạn < thời gian hiện tại
+            // refeshtoken truyền lên khác với refeshtoken trong db => sai token
+
+            // Bước 3 : tạo token mới và refeshtoken mới 
+
+            return Ok();
+        }
+
+
+        private ClaimsPrincipal? GetPrincipalFromExpiredToken(string? token)
+        {
+            var tokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateAudience = false,
+                ValidateIssuer = false,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"])),
+                ValidateLifetime = false
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out SecurityToken securityToken);
+            if (securityToken is not JwtSecurityToken jwtSecurityToken || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+                throw new SecurityTokenException("Invalid token");
+
+            return principal;
+
+        }
         private JwtSecurityToken CreateToken(List<Claim> authClaims)
         {
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
@@ -74,6 +122,14 @@ namespace BE_092024_API.Controllers
                 );
 
             return token;
+        }
+
+        private static string GenerateRefreshToken()
+        {
+            var randomNumber = new byte[64];
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomNumber);
+            return Convert.ToBase64String(randomNumber);
         }
 
     }

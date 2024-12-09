@@ -1,6 +1,7 @@
 ﻿using BE_092024.DataAccess.NetCore.DAL;
 using BE_092024.DataAccess.NetCore.DALImpl;
 using BE_092024.DataAccess.NetCore.UnitOfWork;
+using BE_092024_API.Filter;
 using BE_092024_API.UnitOfWork;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,7 @@ namespace BE_092024_API.Controllers
         }
 
         [HttpGet("Room_GetList")]
+        //[BE_092024_Authorization()]// 
         public async Task<ActionResult> Room_GetList()
         {
             try
