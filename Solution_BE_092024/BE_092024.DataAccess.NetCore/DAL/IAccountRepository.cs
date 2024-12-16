@@ -18,5 +18,8 @@ namespace BE_092024.DataAccess.NetCore.DAL
 
 
         Task<int> User_UpdateRefestoken(int UserID,string RefreshToken,DateTime RefreshTokenExpiryTime);
+
+        User GetUser_ByUsername(string username);
+
     }
 }

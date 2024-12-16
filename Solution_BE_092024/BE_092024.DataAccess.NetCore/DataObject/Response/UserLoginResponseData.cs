@@ -10,5 +10,10 @@ namespace BE_092024.DataAccess.NetCore.DataObject.Response
     {
        public string FullName {  get; set; }
         public string token {  get; set; }
+        public string refeshToken {  get; set; }
+    }
+
+    public class UserLogOutResponseData : ResponseData
+    {
     }
 }

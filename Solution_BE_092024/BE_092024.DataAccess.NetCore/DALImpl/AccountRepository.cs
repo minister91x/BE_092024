@@ -6,6 +6,7 @@ using BE_092024.DataAccess.NetCore.DBContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,6 +24,11 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
         {
             return _dbContext.function.Where(s=>s.FunctionName == functionName).FirstOrDefault();
             
+        }
+
+        public User GetUser_ByUsername(string username)
+        {
+            return _dbContext.user.Where(s => s.UserName == username).FirstOrDefault();
         }
 
         public async Task<Permission> Permission_GetByUser(int UserID, int FunctionID)
