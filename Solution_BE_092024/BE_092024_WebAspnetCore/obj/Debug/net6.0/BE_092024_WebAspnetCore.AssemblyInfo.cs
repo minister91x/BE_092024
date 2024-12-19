@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BE_092024_WebAspnetCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84d05c2b3f44f33196f99a098d2a03fe556e1134")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85870ce4919c002fa3cfe7aff3566a3ab2c6a28a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BE_092024_WebAspnetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BE_092024_WebAspnetCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

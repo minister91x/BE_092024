@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using StackExchange.Redis;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -203,8 +204,23 @@ namespace BE_092024_API.Controllers
                 // lấy dữ liệu từ redis bằng keycache 
                 var cacheKey = "USER_LOGIN_TOKEN_" + user.UserID + "_" + tokenLogOut.DeviceID;
                 // thực hiện xóa token của thiết bị này trong redis caching
-
+               
                 _cache.Remove(cacheKey);
+
+
+                using (ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost:6379,allowAdmin=true"))
+                {
+                    IDatabase db = redis.GetDatabase();
+
+                    var keys = redis.GetServer("localhost", 6379).Keys();
+
+                    string[] keysArr = keys.Select(key => (string)key).ToArray();
+
+                    foreach (string key in keysArr)
+                    {
+                        Console.WriteLine(db.StringGet(key));
+                    }
+                }
 
                 responseData.ResponseCode = 1;
                 responseData.ResponseMessage = "Đăng xuất thành công!";

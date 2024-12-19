@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_092024_API", "BE_092024_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_092024_WebAspnetCore", "BE_092024_WebAspnetCore\BE_092024_WebAspnetCore.csproj", "{28094AA9-1AAF-486A-B06D-9E3A37703DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_092024.DataAccess.NetCore", "BE_092024.DataAccess.NetCore\BE_092024.DataAccess.NetCore.csproj", "{F7F53DBC-55D6-4194-B19C-E7F6908B1557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_092024.DataAccess.NetCore", "BE_092024.DataAccess.NetCore\BE_092024.DataAccess.NetCore.csproj", "{F7F53DBC-55D6-4194-B19C-E7F6908B1557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_09_2024.Media", "BE_09_2024.Media\BE_09_2024.Media.csproj", "{0CC05B69-1E0D-446C-8594-9965EECFD3C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F7F53DBC-55D6-4194-B19C-E7F6908B1557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F53DBC-55D6-4194-B19C-E7F6908B1557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F53DBC-55D6-4194-B19C-E7F6908B1557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC05B69-1E0D-446C-8594-9965EECFD3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC05B69-1E0D-446C-8594-9965EECFD3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC05B69-1E0D-446C-8594-9965EECFD3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC05B69-1E0D-446C-8594-9965EECFD3C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

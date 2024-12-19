@@ -7,6 +7,7 @@ using BE_092024_API.UnitOfWork;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -43,6 +44,7 @@ builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IRoomGenericRepository,RoomGenericRepository>();
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddDirectoryBrowser();
 
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -85,7 +87,34 @@ if (app.Environment.IsDevelopment())
 app.MiddlewareOfBE092024();
 app.UseAuthentication();
 app.UseAuthorization();
+var cacheMaxAgeOneWeek = (60 * 60 * 24 * 7).ToString(); 
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx => {
+        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
+        ctx.Context.Response.Headers.Append("Access-Control-Allow-Headers",
+          "Origin, X-Requested-With, Content-Type, Accept");
+    },
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "files")),
+    RequestPath = "/files"
+});
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx => 
+    {
+        ctx.Context.Response.Headers.Append("Cache-Control", $"public, max-age={cacheMaxAgeOneWeek}");
+    }
+}
+);
+
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "files")),
+    RequestPath = "/files"
+});
 app.MapControllers();
 
 app.Run();
