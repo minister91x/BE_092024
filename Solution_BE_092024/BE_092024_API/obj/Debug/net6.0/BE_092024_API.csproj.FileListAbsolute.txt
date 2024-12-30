@@ -90,3 +90,4 @@ D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\StackExchange.Redis.dll
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
 D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\SourceCode\repos\BE_092024\Solution_BE_092024\BE_092024_API\bin\Debug\net6.0\Dapper.dll

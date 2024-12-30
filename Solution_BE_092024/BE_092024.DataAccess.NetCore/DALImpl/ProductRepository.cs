@@ -1,7 +1,10 @@
 ﻿using BE_092024.Common.DbHelper;
 using BE_092024.DataAccess.NetCore.DAL;
+using BE_092024.DataAccess.NetCore.Dapper;
 using BE_092024.DataAccess.NetCore.DataObject;
 using BE_092024.DataAccess.NetCore.DBContext;
+using Dapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -11,14 +14,16 @@ using System.Threading.Tasks;
 
 namespace BE_092024.DataAccess.NetCore.DALImpl
 {
-    public class ProductRepository : IProductRepository
+    public class ProductRepository :BaseApplicationService, IProductRepository
     {
 
         private BE_092924DbContext _dbContext;
-        public ProductRepository(BE_092924DbContext dbContext)
+       
+        public ProductRepository(IServiceProvider serviceProvider, BE_092924DbContext dbContext) : base(serviceProvider)
         {
-            _dbContext= dbContext;
+            _dbContext = dbContext;
         }
+
         public async Task<List<Product>> Product_GetList(ProductGetListRequestData requestData)
         {
             var list = new List<Product>();
@@ -51,12 +56,28 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
             await Task.Yield();
 
             return list;
+        }
+
+        public async Task<List<Product>> Product_GetList_Dapper(ProductGetListRequestData requestData)
+        {
+            try
+            {
+                // bƯỚC 1 : Khởi tạo param 
+                var parameters = new DynamicParameters();
+                parameters.Add("@ProductName", requestData.ProductName);
+                return await DbConnection.QueryAsync<Product>("SP_Product_GetList", parameters);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public async Task<List<Product>> Product_GetList_EFCore(ProductGetListRequestData requestData)

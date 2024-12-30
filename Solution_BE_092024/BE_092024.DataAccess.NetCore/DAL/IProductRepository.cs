@@ -14,5 +14,8 @@ namespace BE_092024.DataAccess.NetCore.DAL
         Task<List<Product>> Product_GetList_EFCore(ProductGetListRequestData requestData);
 
         Task<int> Product_Insert(Product product);
+
+
+        Task<List<Product>> Product_GetList_Dapper(ProductGetListRequestData requestData);
     }
 }

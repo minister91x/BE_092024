@@ -1,5 +1,6 @@
 using BE_092024.DataAccess.NetCore.DAL;
 using BE_092024.DataAccess.NetCore.DALImpl;
+using BE_092024.DataAccess.NetCore.Dapper;
 using BE_092024.DataAccess.NetCore.DBContext;
 using BE_092024.DataAccess.NetCore.UnitOfWork;
 using BE_092024_API.Middleware;
@@ -44,6 +45,8 @@ builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient<IRoomGenericRepository,RoomGenericRepository>();
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IApplicationDbConnection, ApplicationDbConnection>();
+
 builder.Services.AddDirectoryBrowser();
 
 builder.Services.AddSwaggerGen(opt =>
