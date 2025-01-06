@@ -3,6 +3,7 @@ using BE_092024.DataAccess.NetCore.DALImpl;
 using BE_092024.DataAccess.NetCore.Dapper;
 using BE_092024.DataAccess.NetCore.DBContext;
 using BE_092024.DataAccess.NetCore.UnitOfWork;
+using BE_092024_API.LogConfig;
 using BE_092024_API.Middleware;
 using BE_092024_API.UnitOfWork;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -11,11 +12,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using NLog;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 // Add services to the container.
+//builder.Logging.ClearProviders();
+//builder.Logging.AddConsole();
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/NLog.config"));
 
 builder.Services.AddDbContext<BE_092924DbContext>(options =>
                options.UseSqlServer(configuration.GetConnectionString("ConnStr")));
@@ -46,6 +51,7 @@ builder.Services.AddTransient<IRoomGenericRepository,RoomGenericRepository>();
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IApplicationDbConnection, ApplicationDbConnection>();
+builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
 
 builder.Services.AddDirectoryBrowser();
 

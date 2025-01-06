@@ -15,7 +15,22 @@ namespace BE_092024_WebAspnetCore.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new List<ProductModels>();
+            try
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    model.Add(new ProductModels { ProductId = i, ProductName = "DELL " + i });
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return View(model);
         }
 
         public IActionResult Privacy()

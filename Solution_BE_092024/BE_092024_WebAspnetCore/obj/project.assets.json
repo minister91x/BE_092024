@@ -64,19 +64,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
       "projectName": "BE_092024_WebAspnetCore",
-      "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
+      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -84,15 +89,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
-              "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
+            "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
             }
           }
         }
@@ -106,7 +110,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -136,7 +141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

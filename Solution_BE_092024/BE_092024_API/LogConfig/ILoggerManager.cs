@@ -1,0 +1,10 @@
+﻿namespace BE_092024_API.LogConfig
+{
+    public interface ILoggerManager
+    {
+        void LogInfo(string message);
+        void LogWarn(string message);
+        void LogDebug(string message);
+        void LogError(string message);
+    }
+}

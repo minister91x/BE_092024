@@ -1,14 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {}
   },
   "projects": {
-    "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
         "projectName": "BE_092024.Common",
-        "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +20,21 @@
         "net472": {}
       }
     },
-    "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
         "projectName": "BE_092024.DataAccess.NetCore",
-        "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,15 +42,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
-                "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
+              "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
               }
             }
           }
@@ -59,7 +63,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -110,21 +115,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
         "projectName": "BE_092024_API",
-        "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,15 +141,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
-                "projectPath": "D:\\SourceCode\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj"
+              "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj"
               }
             }
           }
@@ -154,7 +162,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -167,6 +176,10 @@
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.15, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -196,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

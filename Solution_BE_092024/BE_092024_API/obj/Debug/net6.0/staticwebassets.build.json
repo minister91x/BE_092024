@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "no0OJmos13dBBIOlj1OybGGc+bTaJB4frbUTvzRO78I=",
+  "Hash": "2i/mGMOtxvG6FKFIZyQ7nROtHPbm+D6J2CDOzS3rF0I=",
   "Source": "BE_092024_API",
   "BasePath": "_content/BE_092024_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
