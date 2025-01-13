@@ -13,11 +13,17 @@ namespace BE_092024_WebAspnetCore.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Index(int? id)
         {
             var model = new List<ProductModels>();
             try
             {
+                //if (true)
+                //{
+                //    return Redirect("/Account/Login");
+                //}
+
                 for (int i = 0; i < 10; i++)
                 {
                     model.Add(new ProductModels { ProductId = i, ProductName = "DELL " + i });
@@ -31,6 +37,12 @@ namespace BE_092024_WebAspnetCore.Controllers
                 throw;
             }
             return View(model);
+        }
+
+      
+        public ActionResult Index1()
+        {
+            return View();
         }
 
         public IActionResult Privacy()

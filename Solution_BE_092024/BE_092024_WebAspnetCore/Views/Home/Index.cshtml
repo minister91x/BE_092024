@@ -2,6 +2,8 @@
 	ViewData["Title"] = "Home Page";
 }
 @model List<BE_092024_WebAspnetCore.Models.ProductModels>
+<input type="text" placeholder="nhập tên sản phẩm" class="form-control" style="width:50%"/>
+<button class="btn btn-success" >Thêm</button>
 <div class="text-center">
 	<h1 class="display-4"><marquee> Welcome BACKEND NETCORE COURSES </marquee> </h1>
 	@if (Model != null && Model.Count > 0)

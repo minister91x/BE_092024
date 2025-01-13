@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\models\\productmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\models\\productmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_webaspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28094AA9-1AAF-486A-B06D-9E3A37703DE4}|BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj|solutionrelative:be_092024_webaspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|solutionrelative:be_092024_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5765386-11D4-4E08-93C3-78C5CF9A9382}|BE_092024_API\\BE_092024_API.csproj|c:\\users\\admin\\source\\repos\\be_092024\\solution_be_092024\\be_092024_api\\logconfig\\iloggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,13 +74,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "BE_092024_API\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "BE_092024_API\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:33:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:26:20.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Views\\Home\\Index1.cshtml",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Views\\Home\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Views\\Home\\Index1.cshtml",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Views\\Home\\Index1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T14:18:58.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BE_092024_WebAspnetCore\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-06T14:35:57.565Z",
               "EditorCaption": ""
@@ -76,32 +127,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductModels.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Models\\ProductModels.cs",
-              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Models\\ProductModels.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Models\\ProductModels.cs",
-              "RelativeToolTip": "BE_092024_WebAspnetCore\\Models\\ProductModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:25:16.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Controllers\\HomeController.cs",
               "RelativeToolTip": "BE_092024_WebAspnetCore\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T14:18:51.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:21:36.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoggerManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\LogConfig\\LoggerManager.cs",
               "RelativeDocumentMoniker": "BE_092024_API\\LogConfig\\LoggerManager.cs",
@@ -114,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ILoggerManager.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\LogConfig\\ILoggerManager.cs",
               "RelativeDocumentMoniker": "BE_092024_API\\LogConfig\\ILoggerManager.cs",
@@ -127,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NLog.config",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\NLog.config",
               "RelativeDocumentMoniker": "BE_092024_API\\NLog.config",
@@ -140,7 +191,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
+              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
+              "RelativeToolTip": "BE_092024_WebAspnetCore\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:21:30.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "BE_092024_API\\Controllers\\ProductController.cs",
@@ -153,20 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
-              "RelativeDocumentMoniker": "BE_092024_WebAspnetCore\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\Program.cs",
-              "RelativeToolTip": "BE_092024_WebAspnetCore\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:21:30.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\appsettings.json",
               "RelativeDocumentMoniker": "BE_092024_API\\appsettings.json",
@@ -179,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\Program.cs",
               "RelativeDocumentMoniker": "BE_092024_API\\Program.cs",

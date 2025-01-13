@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
         "projectName": "BE_092024.Common",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,12 +20,12 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
         "projectName": "BE_092024.DataAccess.NetCore",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -48,8 +48,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
+              "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
               }
             }
           }
@@ -119,12 +119,12 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
         "projectName": "BE_092024_API",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\BE_092024_API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_API\\obj\\",
         "projectStyle": "PackageReference",
@@ -147,8 +147,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj"
+              "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.DataAccess.NetCore\\BE_092024.DataAccess.NetCore.csproj"
               }
             }
           }
