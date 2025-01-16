@@ -1,30 +1,82 @@
 ﻿@{
 	ViewData["Title"] = "Home Page";
+	var list = new List<DemoModel>();
+	list.Add(new DemoModel{ Name="LOP"});
+	list.Add(new DemoModel { Name = "BACKEND NETCORE" });
 }
-@model List<BE_092024_WebAspnetCore.Models.ProductModels>
-<input type="text" placeholder="nhập tên sản phẩm" class="form-control" style="width:50%"/>
-<button class="btn btn-success" >Thêm</button>
-<div class="text-center">
-	<h1 class="display-4"><marquee> Welcome BACKEND NETCORE COURSES </marquee> </h1>
-	@if (Model != null && Model.Count > 0)
-	{
-		<table class="table">
-			<thead>
-				<tr>
-					<th>ID</th>
-					<th>ProductName</th>
-				</tr>
-			</thead>
-			<tbody>
-				@foreach (var item in Model)
-				{
-					<tr>
-						<td>@item.ProductId</td>
-						<td>@item.ProductName</td>
-					</tr>
-				}
 
-			</tbody>
-		</table>
-	}
+
+@* @Html.Partial("~/Views/Home/ListDemoPartialViews.cshtml", list) *@
+
+<div class="form-group">
+	<label for="email">Tên sản phẩm :</label>
+	<input type="text" class="form-control" id="txtProductName" style="width:50%">
 </div>
+<div class="form-group">
+	<label for="pwd">Số lượng:</label>
+	<input type="number" class="form-control" id="txtProductQuantity" style="width:50%">
+</div>
+
+<button type="button" id="btnSave" class="btn btn-success">Lưu</button>
+
+<div class="text-center">
+	<div id="div_ListProductPartial"></div>
+</div>
+@section Scripts {
+
+	<script>
+		$(document).ready(function(){
+
+			// khi cái view load xong thì gọi hàm để load partial vào
+			  LoadPartialView();
+
+			 $("#btnSave").click(function(){
+				 ProductInsert();
+			 });
+		});
+
+		function LoadPartialView(){
+
+			// xử lý code ajax
+			
+			  $.ajax({
+					type: 'GET',
+					url: "/Home/ListProductPartialViews",
+					data: {},
+					dataType: "html",
+					// dataType:"json",
+					success: function (result) {
+						// gắn htnml nhận được vào thẻ div bên trên
+						  $("#div_ListProductPartial").html(result);
+					},
+					error(rs) {
+						  console.log(JSON.stringify(result));
+					}
+				});
+
+		}
+
+
+		function ProductInsert(){
+			var input_data ={
+
+				ProductName:$("#txtProductName").val(),
+				Quantity:$("#txtProductQuantity").val(),
+			};
+			 $.ajax({
+					type: 'POST',
+					url: "/Home/ProductInsert",
+					data: input_data,
+					//dataType: "html",
+					 dataType:"json",
+					success: function (result) {
+						// gắn htnml nhận được vào thẻ div bên trên
+						  alert(result.responseMsg);
+					},
+					error(rs) {
+						  console.log(JSON.stringify(result));
+					}
+				});
+		}
+	</script>
+}

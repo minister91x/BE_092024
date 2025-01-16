@@ -16,6 +16,11 @@ namespace BE_092024_WebAspnetCore.Controllers
         [HttpGet]
         public IActionResult Index(int? id)
         {
+            return View();
+        }
+
+        public IActionResult ListProductPartialViews()
+        {
             var model = new List<ProductModels>();
             try
             {
@@ -24,6 +29,10 @@ namespace BE_092024_WebAspnetCore.Controllers
                 //    return Redirect("/Account/Login");
                 //}
 
+                // Tìm thư mục Views => Tìm thư mục trùng tên của controller => tìm đến file .cshtml cùng 
+                // tên của action 
+                // Views/Home/Index.cshtml 
+                // Views/Custome/Index.cshtml
                 for (int i = 0; i < 10; i++)
                 {
                     model.Add(new ProductModels { ProductId = i, ProductName = "DELL " + i });
@@ -36,10 +45,47 @@ namespace BE_092024_WebAspnetCore.Controllers
 
                 throw;
             }
-            return View(model);
+            return PartialView(model);
         }
 
-      
+        [HttpPost]
+        public IActionResult ProductInsert(ProductModels model)
+        {
+            var rs = new ReturnData();
+            try
+            {
+                if(model==null 
+                    || string.IsNullOrEmpty(model.ProductName)
+                    || model.Quantity <= 0)
+                {
+                    rs.ResponseCode = -1;
+                    rs.ResponseMsg = "Dữ liệu đầu vào không hợp lệ!";
+                    return Json(rs);
+                }
+
+                // check 
+                if (!BE_092024.Common.Validation.CheckXSSInput(model.ProductName))
+                {
+                    rs.ResponseCode = -2;
+                    rs.ResponseMsg = "Tên sản phẩm không hợp lệ!";
+                    return Json(rs);
+                }
+
+                // đưa vào db
+
+
+                rs.ResponseCode = 1;
+                rs.ResponseMsg = "Thêm sản phẩm thành công!";
+                return Json(rs);
+
+            }
+            catch (Exception ex)
+            {
+                rs.ResponseCode = -969;
+                rs.ResponseMsg = ex.Message;
+                return Json(rs);
+            }
+        }
         public ActionResult Index1()
         {
             return View();

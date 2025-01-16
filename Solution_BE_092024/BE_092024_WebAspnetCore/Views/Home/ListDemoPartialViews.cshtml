@@ -1,0 +1,9 @@
+﻿@model List<DemoModel>
+<h2>Demo PartialView</h2>
+@if (Model != null && Model.Count > 0)
+{
+	foreach (var item in Model)
+	{
+		<p>@item.Name</p>
+	}
+}

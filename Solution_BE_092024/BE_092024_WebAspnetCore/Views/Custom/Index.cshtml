@@ -1,0 +1,33 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+@model List<BE_092024_WebAspnetCore.Models.ProductModels>
+<h2>CUSTOME VIEW</h2>
+@Html.Partial("~/Views/Home/ListProductPartialViews.cshtml")
+
+<input type="text" placeholder="nhập tên sản phẩm" class="form-control" style="width:50%"/>
+<button class="btn btn-success" >Thêm</button>
+<div class="text-center">
+	<h1 class="display-4"><marquee> Welcome BACKEND NETCORE COURSES </marquee> </h1>
+	@if (Model != null && Model.Count > 0)
+	{
+		<table class="table">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>ProductName</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.ProductId</td>
+						<td>@item.ProductName</td>
+					</tr>
+				}
+
+			</tbody>
+		</table>
+	}
+</div>

@@ -1,0 +1,23 @@
+﻿@model List<BE_092024_WebAspnetCore.Models.ProductModels>
+
+@if (Model != null && Model.Count > 0)
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>ProductName</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.ProductId</td>
+					<td>@item.ProductName</td>
+				</tr>
+			}
+
+		</tbody>
+	</table>
+}

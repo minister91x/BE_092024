@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
         "projectName": "BE_092024.Common",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,12 +20,12 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
         "projectName": "BE_092024_WebAspnetCore",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\BE_092024_WebAspnetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024_WebAspnetCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -48,8 +48,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
+              "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\BE_092024\\Solution_BE_092024\\BE_092024.Common\\BE_092024.Common.csproj"
               }
             }
           }
@@ -70,6 +70,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.3.4, )"
