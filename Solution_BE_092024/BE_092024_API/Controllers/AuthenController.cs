@@ -63,7 +63,7 @@ namespace BE_092024_API.Controllers
 
 
                 // Lưu vào RedisCaching
-                var cacheKey = "USER_LOGIN_TOKEN_" + user.UserID + "_" + requestData.DeviceID;
+                var cacheKey = "USER_LOGIN_TOKEN_" + user.UserID;
                 //Set data vào caching 
 
                 var user_Sessions = new User_Sessions();
@@ -80,6 +80,7 @@ namespace BE_092024_API.Controllers
                 _cache.Set(cacheKey, dataToCache, options);
 
                 responseData.ResponseCode = 1;
+                responseData.UserId = user.UserID;
                 responseData.ResponseMessage = "Đăng nhập thành công!";
                 responseData.token = new JwtSecurityTokenHandler().WriteToken(newToken);
                 responseData.refeshToken = refehtoken;
@@ -93,6 +94,100 @@ namespace BE_092024_API.Controllers
         }
 
 
+        [HttpPost("CheckToken")]
+        public async Task<ActionResult> CheckToken(CheckTokenRequestData requestData)
+        {
+            var responseData = new CheckTokenResponseData();
+            try
+            {
+                // Kiểm tra token xem còn hạn hay không 
+                var cacheKey = "USER_LOGIN_TOKEN_" + requestData.userId;
+                byte[] cachedData = await _cache.GetAsync(cacheKey);
+
+                if (cachedData == null)
+                {
+                    // Kiểm tra thêm nếu Refeshtone Expried time:
+
+                    var userDetail = await _accountRepository.User_GetByID(requestData.userId);
+                    if (userDetail == null)
+                    {
+                        responseData.ResponseCode = -1;
+                        responseData.ResponseMessage = "Không có user";
+                        return Ok(responseData);
+                    }
+
+                    if(userDetail.TokenExprired < DateTime.Now)
+                    {
+                        // 2 : hết hạn => hết hạn báo đăng nhập lại 
+                        responseData.ResponseCode = -1;
+                        responseData.ResponseMessage = "Vui lòng đăng nhập lại";
+                        return Ok(responseData);
+
+                    }
+
+
+                    // 1 : còn hạn thì tạo token mới 
+                    // Bước 1 : giải mã token truyền lên để lấy claims 
+                    var principal = GetPrincipalFromExpiredToken(requestData.AccessToken);
+                    if (principal == null)
+                    {
+                        responseData.ResponseCode = -1;
+                        responseData.ResponseMessage = "token không hợp lệ";
+                        return Ok(responseData);
+                    }
+                    // Bước 2: check refeshtoken và ngày hết hạn 
+
+                    var exp = DateTimeOffset.FromUnixTimeSeconds(long.Parse(principal.FindFirst("exp").Value));
+                    //or as DateTime:
+                    DateTime result = exp.UtcDateTime.AddHours(7);
+
+
+
+                    string username = principal.Identity.Name;
+
+                    // GỌI DB ĐỂ LẤY THEO USERNAME 
+                    var user = _accountRepository.GetUser_ByUsername(username);
+
+                    // ngày hết hạn < thời gian hiện tại
+                    // refeshtoken truyền lên khác với refeshtoken trong db => sai token
+                    if (user == null || user.RefeshToken != requestData.RefreshToken || user.TokenExprired <= DateTime.Now)
+                    {
+                        responseData.ResponseCode = -1;
+                        responseData.ResponseMessage = "token không hợp lệ";
+                        return Ok(responseData);
+                    }
+
+                    var newToken = CreateToken(principal.Claims.ToList());
+                    var newRefehtoken = GenerateRefreshToken();
+                    // Bước 3 : tạo token mới và refeshtoken mới 
+
+
+                    // Lưu refeshtoken 
+                    _ = int.TryParse(_configuration["JWT:RefreshTokenValidityInDays"], out int refreshTokenValidityInDays);
+
+                    await _accountRepository.User_UpdateRefestoken(user.UserID, newRefehtoken, DateTime.Now.AddDays(refreshTokenValidityInDays));
+
+                    responseData.ResponseCode = 1;
+                    responseData.ResponseMessage = "Tạo mới token thành công!";
+                    responseData.token = new JwtSecurityTokenHandler().WriteToken(newToken);
+                    responseData.refeshToken = newRefehtoken;
+                    return Ok(responseData);
+
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+            responseData.ResponseCode = 1;
+            responseData.ResponseMessage = "OK!";
+            return Ok(responseData);
+        }
 
         [HttpPost]
         [Route("refresh-token")]
@@ -204,7 +299,7 @@ namespace BE_092024_API.Controllers
                 // lấy dữ liệu từ redis bằng keycache 
                 var cacheKey = "USER_LOGIN_TOKEN_" + user.UserID + "_" + tokenLogOut.DeviceID;
                 // thực hiện xóa token của thiết bị này trong redis caching
-               
+
                 _cache.Remove(cacheKey);
 
 

@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "BE_092024_API.Controllers.AuthenController",
+    "Method": "CheckToken",
+    "RelativePath": "api/Authen/CheckToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "BE_092024_API.CheckTokenRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_092024_API.Controllers.AuthenController",
     "Method": "LogOut",
     "RelativePath": "api/Authen/Logout",
     "HttpMethod": "POST",

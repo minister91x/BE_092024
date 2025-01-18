@@ -1,8 +1,13 @@
 ﻿using BE_092024.DataAccess.NetCore.DAL;
+using BE_092024.DataAccess.NetCore.DataObject;
 using BE_092024.DataAccess.NetCore.DBContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Security.Claims;
+using System.Text;
 
 namespace BE_092024_API.Filter
 {
@@ -20,11 +25,15 @@ namespace BE_092024_API.Filter
         private readonly string _functionCode;
         private readonly string _permission;
         private readonly IAccountRepository _accountRepository;
-        public DemoAuthorizeActionFilter(string functionCode, string permission, IAccountRepository accountRepository)
+        private readonly IDistributedCache _cache;
+
+        public DemoAuthorizeActionFilter(string functionCode, string permission,
+            IAccountRepository accountRepository , IDistributedCache cache)
         {
             _functionCode = functionCode;
             _permission = permission;
             _accountRepository = accountRepository;
+            _cache = cache;
         }
 
         public async Task OnAuthorizationAsync(AuthorizationFilterContext context)
@@ -35,6 +44,7 @@ namespace BE_092024_API.Filter
 
             if (identity != null)
             {
+               
 
                 var userClaims = identity.Claims;
 
@@ -53,6 +63,9 @@ namespace BE_092024_API.Filter
                     });
                     return;
                 }
+
+
+               
 
                 // Lấy functionID dựa vào functionCode 
 
@@ -118,6 +131,17 @@ namespace BE_092024_API.Filter
                         break;
                 }
 
+            }
+            else
+            {
+                context.HttpContext.Response.ContentType = "application/json";
+                context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
+                context.Result = new JsonResult(new
+                {
+                    ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                    ReturnMessage = "Vui lòng đăng nhập để thực hiện chức năng này "
+                });
+                return;
             }
 
         }

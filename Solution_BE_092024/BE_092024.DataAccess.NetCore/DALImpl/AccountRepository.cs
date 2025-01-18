@@ -36,6 +36,11 @@ namespace BE_092024.DataAccess.NetCore.DALImpl
             return _dbContext.permission.Where(s => s.UserID == UserID && s.FunctionID==FunctionID).FirstOrDefault();
         }
 
+        public async Task<User> User_GetByID(int id)
+        {
+            return _dbContext.user.Where(s => s.UserID == id).FirstOrDefault();
+        }
+
         public async Task<User> User_Login(AccountLoginRequestData requestData)
         {
 			try

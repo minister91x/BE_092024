@@ -12,6 +12,7 @@ namespace BE_092024.DataAccess.NetCore.DAL
     {
         Task<User> User_Login(AccountLoginRequestData requestData);
 
+        Task<User> User_GetByID(int id);
         Task<Function> Function_ByName(string functionName);
 
         Task<Permission> Permission_GetByUser(int UserID,int FunctionID);

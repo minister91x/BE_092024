@@ -30,7 +30,7 @@ namespace BE_092024_API.Controllers
         }
 
         [HttpPost("Product_GetList")]
-        // [BE_092024_Authorization("Product_GetList", "VIEW")]// 
+        [BE_092024_Authorization("Product_GetList", "VIEW")]// 
         public async Task<ActionResult> Product_GetList(ProductGetListRequestData requestData)
         {
             var logID = DateTime.Now.Ticks;
