@@ -5,19 +5,25 @@
 	list.Add(new DemoModel { Name = "BACKEND NETCORE" });
 }
 
+@model BE_092024_WebAspnetCore.Models.ProductModels
 
-@* @Html.Partial("~/Views/Home/ListDemoPartialViews.cshtml", list) *@
-
-<div class="form-group">
-	<label for="email">Tên sản phẩm :</label>
-	<input type="text" class="form-control" id="txtProductName" style="width:50%">
-</div>
-<div class="form-group">
-	<label for="pwd">Số lượng:</label>
-	<input type="number" class="form-control" id="txtProductQuantity" style="width:50%">
-</div>
-
-<button type="button" id="btnSave" class="btn btn-success">Lưu</button>
+<h2 class="display-4">Nhập thông tin</h2>
+<div asp-validation-summary="All"></div>
+<form method="post"  class="m-2 p-3 bg-light">
+	<div class="form-group">
+		<label asp-for="@Model.ProductName"></label>
+		<input class="form-control" asp-for="@Model.ProductName" />
+		<span asp-validation-for="@Model.ProductName" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Quantity"></label>
+		<input class="form-control" asp-for="@Model.Quantity" />
+		<span asp-validation-for="@Model.Quantity" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-danger" >Gửi thông tin</button>
+	</div>
+</form>
 
 <div class="text-center">
 	<div id="div_ListProductPartial"></div>

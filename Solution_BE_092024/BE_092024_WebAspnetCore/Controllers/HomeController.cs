@@ -49,11 +49,17 @@ namespace BE_092024_WebAspnetCore.Controllers
         }
 
         [HttpPost]
-        public IActionResult ProductInsert(ProductModels model)
+        public IActionResult Index(ProductModels model)
         {
             var rs = new ReturnData();
             try
             {
+
+                if (!ModelState.IsValid)
+                {
+                    return View();
+                }
+
                 if(model==null 
                     || string.IsNullOrEmpty(model.ProductName)
                     || model.Quantity <= 0)
